@@ -1,6 +1,8 @@
 cached:
   - alpine:3.7
   - busybox:1.28.3
+  - floydhub/pytorch:0.3.0-gpu.cuda9cudnn7-py3.24
+  - floydhub/pytorch:0.4.0-gpu.cuda9cudnn7-py3.30
   - python:2.7.14-alpine3.7
   - python:2.7.14-jessie
   - python:3.6.5-alpine3.7
@@ -26,10 +28,13 @@ cached:
   - tensorflow/tensorflow:1.8.0-devel-gpu
   - tensorflow/tensorflow:1.8.0-devel-gpu-py3
   - tensorflow/tensorflow:1.8.0-devel-py3
+  - ufoym/deepo
   - ufoym/deepo:all-py27
   - ufoym/deepo:all-py27-cpu
   - ufoym/deepo:all-py36
   - ufoym/deepo:all-py36-cpu
+  - ufoym/deepo:lasagne-py36
+  - ufoym/deepo:pytorch
   - valohai/darknet:62b781a-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/hauki:tensorflow1.4.1-python3.5-cuda8.0-cudnn6.0-devel-ubuntu16.04-joonas
