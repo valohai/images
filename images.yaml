@@ -94,3 +94,23 @@ aliases:
     - ufoym/deepo:all-cpu
     - ufoym/deepo:cpu
     - ufoym/deepo:py36-cpu
+
+suggestions:
+  - gcr.io/tensorflow/tensorflow:1.0.1-devel-gpu-py3
+  - gcr.io/tensorflow/tensorflow:1.0.1-devel-gpu
+  - gcr.io/tensorflow/tensorflow:0.12.1-devel-gpu-py3
+  - gcr.io/tensorflow/tensorflow:0.12.1-devel-gpu
+  - valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
+  - valohai/keras:2.0.0-theano0.9.0rc4-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
+  - valohai/keras:2.0.0-theano0.8.2-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
+  - valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04
+
+descriptions:
+  gcr.io/tensorflow/tensorflow:0.12.1-devel-gpu: 'Tensorflow 0.12.1 with GPU support on Python 2'
+  gcr.io/tensorflow/tensorflow:0.12.1-devel-gpu-py3: 'Tensorflow 0.12.1 with GPU support on Python 3'
+  gcr.io/tensorflow/tensorflow:1.0.1-devel-gpu: 'Tensorflow 1.0.1 with GPU support on Python 2'
+  gcr.io/tensorflow/tensorflow:1.0.1-devel-gpu-py3: 'Tensorflow 1.0.1 with GPU support on Python 3'
+  valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04: 'Darknet with GPU support'
+  valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04: 'Keras 2.0.0 with TensorFlow 1.0.1 backend and GPU support on Python 3'
+  valohai/keras:2.0.0-theano0.8.2-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04: 'Keras 2.0.0 with Theano 0.8.2 backend and GPU support on Python 3'
+  valohai/keras:2.0.0-theano0.9.0rc4-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04: 'Keras 2.0.0 with Theano 0.9.0rc4 backend and GPU support on Python 3'
