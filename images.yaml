@@ -28,6 +28,10 @@ cached:
   - tensorflow/tensorflow:1.8.0-devel-gpu
   - tensorflow/tensorflow:1.8.0-devel-gpu-py3
   - tensorflow/tensorflow:1.8.0-devel-py3
+  - tensorflow/tensorflow:1.9.0-devel
+  - tensorflow/tensorflow:1.9.0-devel-gpu
+  - tensorflow/tensorflow:1.9.0-devel-gpu-py3
+  - tensorflow/tensorflow:1.9.0-devel-py3
   - ufoym/deepo
   - ufoym/deepo:all-py27
   - ufoym/deepo:all-py27-cpu
