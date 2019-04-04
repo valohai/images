@@ -1,19 +1,12 @@
 cached:
   - alpine:3.7
   - busybox:1.28.3
-  - floydhub/pytorch:0.3.0-gpu.cuda9cudnn7-py3.24
   - floydhub/pytorch:0.4.0-gpu.cuda9cudnn7-py3.30
   - python:2.7.14-alpine3.7
   - python:2.7.14-jessie
   - python:3.6.5-alpine3.7
   - python:3.6.5-jessie
   - r-base:3.4.2
-  - tensorflow/tensorflow:0.12.1-devel-gpu
-  - tensorflow/tensorflow:0.12.1-devel-gpu-py3
-  - tensorflow/tensorflow:1.0.1-devel-gpu
-  - tensorflow/tensorflow:1.0.1-devel-gpu-py3
-  - tensorflow/tensorflow:1.3.0-devel-gpu
-  - tensorflow/tensorflow:1.3.0-devel-gpu-py3
   - tensorflow/tensorflow:1.5.0-devel-gpu
   - tensorflow/tensorflow:1.5.0-devel-gpu-py3
   - tensorflow/tensorflow:1.6.0-devel
@@ -32,13 +25,15 @@ cached:
   - tensorflow/tensorflow:1.9.0-devel-gpu
   - tensorflow/tensorflow:1.9.0-devel-gpu-py3
   - tensorflow/tensorflow:1.9.0-devel-py3
+  - tensorflow/tensorflow:1.13.1
+  - tensorflow/tensorflow:1.13.1-gpu
+  - tensorflow/tensorflow:1.13.1-gpu-py3
+  - tensorflow/tensorflow:1.13.1-py3
   - ufoym/deepo
   - ufoym/deepo:all-py27
   - ufoym/deepo:all-py27-cpu
   - ufoym/deepo:all-py36
   - ufoym/deepo:all-py36-cpu
-  - ufoym/deepo:lasagne-py36
-  - ufoym/deepo:pytorch
   - valohai/darknet:62b781a-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/hauki:tensorflow1.4.1-python3.5-cuda8.0-cudnn6.0-devel-ubuntu16.04-joonas
@@ -105,22 +100,29 @@ aliases:
     - ufoym/deepo:py36-cpu
 
 suggestions:
-  - tensorflow/tensorflow:1.9.0-devel-gpu-py3
-  - tensorflow/tensorflow:1.5.0-devel-gpu
   - ufoym/deepo:all-py36
+  - ufoym/deepo:all-py36-cpu
   - ufoym/deepo:all-py27
+  - ufoym/deepo:all-py27-cpu
+  - tensorflow/tensorflow:1.9.0-devel-gpu-py3
+  - tensorflow/tensorflow:1.9.0-devel-py3
 
 descriptions:
-  tensorflow/tensorflow:0.12.1-devel-gpu-py3: 'TensorFlow 0.12.1 with GPU support on Python 3'
-  tensorflow/tensorflow:0.12.1-devel-gpu: 'TensorFlow 0.12.1 with GPU support on Python 2'
-  tensorflow/tensorflow:1.0.1-devel-gpu-py3: 'TensorFlow 1.0.1 with GPU support on Python 3'
-  tensorflow/tensorflow:1.0.1-devel-gpu: 'TensorFlow 1.0.1 with GPU support on Python 2'
-  tensorflow/tensorflow:1.5.0-devel-gpu-py3: 'TensorFlow 1.5.0 with GPU support on Python 3'
-  tensorflow/tensorflow:1.5.0-devel-gpu: 'TensorFlow 1.5.0 with GPU support on Python 2'
-  tensorflow/tensorflow:1.9.0-devel-gpu-py3: 'TensorFlow 1.9.0 with GPU support on Python 3'
-  tensorflow/tensorflow:1.9.0-devel-gpu: 'TensorFlow 1.9.0 with GPU support on Python 2'
-  ufoym/deepo:all-py27: 'almost all commonly used deep learning frameworks, Python 2 version'
-  ufoym/deepo:all-py36: 'almost all commonly used deep learning frameworks, Python 3 version'
+  tensorflow/tensorflow:0.12.1-devel-gpu-py3: 'TensorFlow 0.12.1 on Python 3 with GPU support'
+  tensorflow/tensorflow:0.12.1-devel-gpu: 'TensorFlow 0.12.1 on Python 2 with GPU support'
+  tensorflow/tensorflow:1.0.1-devel-gpu-py3: TensorFlow 1.0.1 on Python 3 with GPU support'
+  tensorflow/tensorflow:1.0.1-devel-gpu: 'TensorFlow 1.0.1 on Python 2 with GPU support'
+  tensorflow/tensorflow:1.5.0-devel-gpu-py3: TensorFlow 1.5.0 on Python 3 with GPU support'
+  tensorflow/tensorflow:1.5.0-devel-gpu: 'TensorFlow 1.5.0 on Python 2 with GPU support'
+  tensorflow/tensorflow:1.9.0-devel-gpu-py3: TensorFlow 1.9.0 on Python 3 with GPU support'
+  tensorflow/tensorflow:1.9.0-devel-gpu: 'TensorFlow 1.9.0 on Python 2 with GPU support'
+  tensorflow/tensorflow:1.9.0-devel-py3: 'TensorFlow 1.9.0 on Python 3 without GPU support'
+  tensorflow/tensorflow:1.13.1-gpu-py3: 'TensorFlow 1.13.1 on Python 3 with GPU support'
+  tensorflow/tensorflow:1.13.1-py3: 'TensorFlow 1.13.1 on Python 3 without GPU support'
+  ufoym/deepo:all-py27: 'all common deep learning frameworks on Python 2 with GPU support'
+  ufoym/deepo:all-py27-cpu: 'all common deep learning frameworks on Python 2 without GPU support'
+  ufoym/deepo:all-py36: 'all common deep learning frameworks on Python 3 with GPU support)'
+  ufoym/deepo:all-py36-cpu: 'all common deep learning frameworks on Python 3 without GPU support'
   valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04: 'Darknet with GPU support'
   valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04: 'Keras 2.0.0 with TensorFlow 1.0.1 backend and GPU support on Python 3'
   valohai/keras:2.0.0-theano0.8.2-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04: 'Keras 2.0.0 with Theano 0.8.2 backend and GPU support on Python 3'
