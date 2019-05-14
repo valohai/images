@@ -92,8 +92,8 @@ suggestions:
   - ufoym/deepo:all-py36-cpu
   - ufoym/deepo:all-py27
   - ufoym/deepo:all-py27-cpu
-  - tensorflow/tensorflow:1.9.0-devel-gpu-py3
-  - tensorflow/tensorflow:1.9.0-devel-py3
+  - tensorflow/tensorflow:1.13.1-gpu-py3
+  - tensorflow/tensorflow:1.13.1-py3
 
 descriptions:
   tensorflow/tensorflow:1.5.0-devel-gpu-py3: TensorFlow 1.5.0 on Python 3 with GPU support'
