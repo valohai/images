@@ -2,36 +2,21 @@ cached:
   - alpine:3.7
   - busybox:1.28.3
   - floydhub/pytorch:0.4.0-gpu.cuda9cudnn7-py3.30
-  - python:2.7.14-alpine3.7
-  - python:2.7.14-jessie
   - python:3.6.5-alpine3.7
   - python:3.6.5-jessie
   - r-base:3.4.2
-  - tensorflow/tensorflow:1.5.0-devel-gpu
   - tensorflow/tensorflow:1.5.0-devel-gpu-py3
-  - tensorflow/tensorflow:1.6.0-devel
-  - tensorflow/tensorflow:1.6.0-devel-gpu
   - tensorflow/tensorflow:1.6.0-devel-gpu-py3
   - tensorflow/tensorflow:1.6.0-devel-py3
-  - tensorflow/tensorflow:1.7.0-devel
-  - tensorflow/tensorflow:1.7.0-devel-gpu
   - tensorflow/tensorflow:1.7.0-devel-gpu-py3
   - tensorflow/tensorflow:1.7.0-devel-py3
-  - tensorflow/tensorflow:1.8.0-devel
-  - tensorflow/tensorflow:1.8.0-devel-gpu
   - tensorflow/tensorflow:1.8.0-devel-gpu-py3
   - tensorflow/tensorflow:1.8.0-devel-py3
-  - tensorflow/tensorflow:1.9.0-devel
-  - tensorflow/tensorflow:1.9.0-devel-gpu
   - tensorflow/tensorflow:1.9.0-devel-gpu-py3
   - tensorflow/tensorflow:1.9.0-devel-py3
-  - tensorflow/tensorflow:1.13.1
-  - tensorflow/tensorflow:1.13.1-gpu
   - tensorflow/tensorflow:1.13.1-gpu-py3
   - tensorflow/tensorflow:1.13.1-py3
   - ufoym/deepo
-  - ufoym/deepo:all-py27
-  - ufoym/deepo:all-py27-cpu
   - ufoym/deepo:all-py36
   - ufoym/deepo:all-py36-cpu
   - valohai/darknet:62b781a-cuda8.0-cudnn5-devel-ubuntu16.04
@@ -90,38 +75,27 @@ aliases:
 suggestions:
   - ufoym/deepo:all-py36
   - ufoym/deepo:all-py36-cpu
-  - ufoym/deepo:all-py27
-  - ufoym/deepo:all-py27-cpu
   - ufoym/deepo:keras-py36-cu90
   - pytorch/pytorch:1.5.1-cuda10.1-cudnn7-runtime
   - pytorch/pytorch:1.4-cuda10.1-cudnn7-devel
-  - tensorflow/tensorflow:1.8.0-devel
   - tensorflow/tensorflow:1.13.1-gpu-py3
   - tensorflow/tensorflow:1.13.1-py3
   - tensorflow/tensorflow:1.15.0-gpu-py3
   - tensorflow/tensorflow:1.15.2-gpu-py3
   - tensorflow/tensorflow:2.0.0-gpu-py3
   - tensorflow/tensorflow:2.0.1-gpu-py3
-  - tensorflow/tensorflow:2.2.0
   - tensorflow/tensorflow:2.2.0-py3
-  - tensorflow/tensorflow:2.2.0-gpu
   - tensorflow/tensorflow:2.2.0-gpu-py3
-  - tensorflow/tensorflow:2.3.0rc2-gpu
-  - tensorflow/tensorflow:2.3.0rc1-gpu
   - valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/keras:2.0.0-theano0.9.0rc4-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04
 
 descriptions:
   tensorflow/tensorflow:1.5.0-devel-gpu-py3: TensorFlow 1.5.0 on Python 3 with GPU support'
-  tensorflow/tensorflow:1.5.0-devel-gpu: 'TensorFlow 1.5.0 on Python 2 with GPU support'
   tensorflow/tensorflow:1.9.0-devel-gpu-py3: TensorFlow 1.9.0 on Python 3 with GPU support'
-  tensorflow/tensorflow:1.9.0-devel-gpu: 'TensorFlow 1.9.0 on Python 2 with GPU support'
   tensorflow/tensorflow:1.9.0-devel-py3: 'TensorFlow 1.9.0 on Python 3 without GPU support'
   tensorflow/tensorflow:1.13.1-gpu-py3: 'TensorFlow 1.13.1 on Python 3 with GPU support'
   tensorflow/tensorflow:1.13.1-py3: 'TensorFlow 1.13.1 on Python 3 without GPU support'
-  ufoym/deepo:all-py27: 'all common deep learning frameworks on Python 2 with GPU support'
-  ufoym/deepo:all-py27-cpu: 'all common deep learning frameworks on Python 2 without GPU support'
   ufoym/deepo:all-py36: 'all common deep learning frameworks on Python 3 with GPU support)'
   ufoym/deepo:all-py36-cpu: 'all common deep learning frameworks on Python 3 without GPU support'
   valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04: 'Darknet with GPU support'
@@ -137,26 +111,12 @@ details:
       - 'python 3'
       - 'tensorflow 1.5.0'
       - 'GPU'
-  tensorflow/tensorflow:1.5.0-devel-gpu:
-    isRecommended: False
-    description: 'TensorFlow 1.5.0 on Python 2 with GPU support'
-    tags:
-      - 'python 2'
-      - 'tensorflow 1.5.0'
-      - 'GPU'
   tensorflow/tensorflow:1.9.0-devel-gpu-py3:
     isRecommended: False
     description: 'TensorFlow 1.9.0 on Python 3 with GPU support'
     tags:
       - 'python 3'
       - 'tensorflow 1.9.0'
-      - 'GPU'
-  tensorflow/tensorflow:1.9.0-devel-gpu:
-    isRecommended: False
-    description: 'TensorFlow 1.9.0 developer version on Python 2 with GPU support'
-    tags:
-      - 'python 2'
-      - 'tensorflow 1.5.0 devel'
       - 'GPU'
   tensorflow/tensorflow:1.9.0-devel-py3:
     isRecommended: False
@@ -179,13 +139,6 @@ details:
       - 'python 3'
       - 'tensorflow 1.13.1'
       - 'CPU'
-  tensorflow/tensorflow:2.2.0-gpu:
-    isRecommended: True
-    description: 'TensorFlow 2.2.0 on Python 2 with GPU support'
-    tags:
-      - 'python 2'
-      - 'tensorflow 2.2.0'
-      - 'GPU'
   tensorflow/tensorflow:2.0.0-gpu-py3:
     isRecommended: True
     description: 'TensorFlow 2.0.0 on Python 3 with GPU support'
@@ -200,13 +153,6 @@ details:
       - 'python 2'
       - 'tensorflow 1.15.2'
       - 'GPU'
-  tensorflow/tensorflow:1.8.0-devel:
-    isRecommended: False
-    description: 'TensorFlow 1.8.0 developer version on Python 2'
-    tags:
-      - 'python 2'
-      - 'tensorflow 1.8.0 developer'
-      - 'CPU'
   tensorflow/tensorflow:1.15.0-py3:
     isRecommended: False
     description: 'TensorFlow 1.15.0 on Python 3 without GPU support'
@@ -221,13 +167,6 @@ details:
       - 'python 3'
       - 'tensorflow 1.15.0'
       - 'GPU'
-  tensorflow/tensorflow:2.3.0rc2-gpu:
-    isRecommended: False
-    description: 'TensorFlow 2.3.0 release candidate 2 on Python 2 with GPU support'
-    tags:
-      - 'python 2'
-      - 'tensorflow 2.3.0 rc2'
-      - 'GPU'
   tensorflow/tensorflow:2.0.1-gpu-py3:
     isRecommended: True
     description: 'TensorFlow 2.0.1 on Python 3 with GPU support'
@@ -235,43 +174,6 @@ details:
       - 'python 3'
       - 'tensorflow 2.0.1'
       - 'GPU'
-  ufoym/deepo:all-py27:
-    isRecommended: False
-    description: 'All common deep learning frameworks on Python 2 with GPU support'
-    tags:
-      - 'python 2.7'
-      - 'GPU'
-      - 'CUDA 10.0'
-      - 'cuDNN 7'
-      - 'tensorflow'
-      - 'sonnet'
-      - 'torch 7'
-      - 'keras'
-      - 'mxnet'
-      - 'cntk'
-      - 'chainer'
-      - 'theano'
-      - 'lasagne'
-      - 'caffe 1.0.0'
-      - 'caffe2'
-  ufoym/deepo:all-py27-cpu:
-    isRecommended: False
-    description: 'All common deep learning frameworks on Python 2 without GPU support'
-    tags:
-      - 'python 2.7'
-      - 'CPU'
-      - 'cuDNN 7'
-      - 'tensorflow'
-      - 'sonnet'
-      - 'torch 7'
-      - 'keras'
-      - 'mxnet'
-      - 'cntk'
-      - 'chainer'
-      - 'theano'
-      - 'lasagne'
-      - 'caffe 1.0.0'
-      - 'caffe2'
   ufoym/deepo:all-py36:
     isRecommended: True
     description: 'All common deep learning frameworks on Python 3 with GPU support)'
