@@ -91,8 +91,8 @@ suggestions:
   - valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04
 
 descriptions:
-  tensorflow/tensorflow:1.5.0-devel-gpu-py3: TensorFlow 1.5.0 on Python 3 with GPU support'
-  tensorflow/tensorflow:1.9.0-devel-gpu-py3: TensorFlow 1.9.0 on Python 3 with GPU support'
+  tensorflow/tensorflow:1.5.0-devel-gpu-py3: 'TensorFlow 1.5.0 on Python 3 with GPU support'
+  tensorflow/tensorflow:1.9.0-devel-gpu-py3: 'TensorFlow 1.9.0 on Python 3 with GPU support'
   tensorflow/tensorflow:1.9.0-devel-py3: 'TensorFlow 1.9.0 on Python 3 without GPU support'
   tensorflow/tensorflow:1.13.1-gpu-py3: 'TensorFlow 1.13.1 on Python 3 with GPU support'
   tensorflow/tensorflow:1.13.1-py3: 'TensorFlow 1.13.1 on Python 3 without GPU support'
@@ -150,7 +150,7 @@ details:
     isRecommended: False
     description: 'TensorFlow 1.15.2 on Python 3 with GPU support'
     tags:
-      - 'python 2'
+      - 'python 3'
       - 'tensorflow 1.15.2'
       - 'GPU'
   tensorflow/tensorflow:1.15.0-py3:
@@ -270,7 +270,6 @@ details:
     isRecommended: True
     description: 'PyTorch 1.5.1 with Cuda 10.1 and CuDNN 7'
     tags:
-      - 'python 2'
       - 'PyTorch 1.5.1'
       - 'cuDNN 7'
       - 'GPU'
