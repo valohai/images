@@ -84,8 +84,8 @@ suggestions:
   - tensorflow/tensorflow:1.15.2-gpu-py3
   - tensorflow/tensorflow:2.0.0-gpu-py3
   - tensorflow/tensorflow:2.0.1-gpu-py3
-  - tensorflow/tensorflow:2.2.0-py3
-  - tensorflow/tensorflow:2.2.0-gpu-py3
+  - tensorflow/tensorflow:2.1.0-py3
+  - tensorflow/tensorflow:2.1.0-gpu-py3
   - valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/keras:2.0.0-theano0.9.0rc4-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04
   - valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04
@@ -144,13 +144,13 @@ details:
     description: 'TensorFlow 2.0.0 on Python 3 with GPU support'
     tags:
       - 'python 3'
-      - 'tensorflow 2.2.0'
+      - 'tensorflow 2.0.0'
       - 'GPU'
   tensorflow/tensorflow:1.15.2-gpu-py3:
     isRecommended: False
     description: 'TensorFlow 1.15.2 on Python 3 with GPU support'
     tags:
-      - 'python 2'
+      - 'python 3'
       - 'tensorflow 1.15.2'
       - 'GPU'
   tensorflow/tensorflow:1.15.0-py3:
