@@ -41,7 +41,7 @@ tensorflow/tensorflow:2.0.0-gpu-py3:
   description: 'TensorFlow 2.0.0 on Python 3 with GPU support'
   tags:
     - 'python 3'
-    - 'tensorflow 2.2.0'
+    - 'tensorflow 2.0.0'
     - 'GPU'
 tensorflow/tensorflow:1.15.2-gpu-py3:
   isRecommended: False
