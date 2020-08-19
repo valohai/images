@@ -260,17 +260,25 @@ details:
       - 'cuDNN 5 developer'
       - 'ubuntu 16.04'
   pytorch/pytorch:1.4-cuda10.1-cudnn7-devel:
-    isRecommended: True
+    isRecommended: False
     description: 'PyTorch 1.4 with Cuda 10.1 and CuDNN 7'
     tags:
       - 'pytorch 1.4'
       - 'CUDA 10.1'
       - 'cuDNN 7'
   pytorch/pytorch:1.5.1-cuda10.1-cudnn7-runtime:
-    isRecommended: True
+    isRecommended: False
     description: 'PyTorch 1.5.1 with Cuda 10.1 and CuDNN 7'
     tags:
       - 'python 2'
       - 'PyTorch 1.5.1'
+      - 'cuDNN 7'
+      - 'GPU'
+  pytorch/pytorch:1.6.0-cuda10.1-cudnn7-runtime:
+    isRecommended: True
+    description: 'PyTorch 1.6.0 with Cuda 10.1 and CuDNN 7'
+    tags:
+      - 'python 2'
+      - 'PyTorch 1.6.0'
       - 'cuDNN 7'
       - 'GPU'
