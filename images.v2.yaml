@@ -1,328 +1,76 @@
-tensorflow/tensorflow:1.5.0-devel-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.5.0 developer version on Python 3 with GPU support'
+pytorch/pytorch:1.10.0-cuda11.3-cudnn8-runtime:
+  description: PyTorch 1.10.0 on CUDA 11.3
+  isRecommended: true
   tags:
-    - 'python 3'
-    - 'tensorflow 1.5.0'
-    - 'GPU'
-    - 'developer version'
-tensorflow/tensorflow:1.9.0-devel-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.9.0 developer version on Python 3 with GPU support'
+  - PyTorch
+  - PyTorch 1.10.0
+  - GPU
+pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime:
+  description: PyTorch 1.11.0 on CUDA 11.3
+  isRecommended: true
   tags:
-    - 'python 3'
-    - 'tensorflow 1.9.0'
-    - 'GPU'
-    - 'developer version'
-tensorflow/tensorflow:1.9.0-devel-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.9.0 developer version on Python 3 without GPU support'
+  - PyTorch
+  - PyTorch 1.11.0
+  - GPU
+pytorch/pytorch:1.9.1-cuda11.1-cudnn8-runtime:
+  description: PyTorch 1.9.1 on CUDA 11.1
+  isRecommended: true
   tags:
-    - 'python 3'
-    - 'tensorflow 1.5.0'
-    - 'CPU'
-    - 'developer version'
-tensorflow/tensorflow:1.13.1-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.13.1 on Python 3 with GPU support'
-  tags:
-    - 'python 3'
-    - 'tensorflow 1.13.1'
-    - 'GPU'
+  - PyTorch
+  - PyTorch 1.9.1
+  - GPU
 tensorflow/tensorflow:1.13.1-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.13.1 on Python 3 without GPU support'
+  description: TensorFlow 1.13.1 on Python 3 (CPU only)
+  isRecommended: false
   tags:
-    - 'python 3'
-    - 'tensorflow 1.13.1'
-    - 'CPU'
-tensorflow/tensorflow:2.0.0-gpu-py3:
-  isRecommended: True
-  description: 'TensorFlow 2.0.0 on Python 3 with GPU support'
+  - TensorFlow 1.13.1
+  - Python 3
+tensorflow/tensorflow:2.2.0:
+  description: TensorFlow 2.2.0 on Python 3 (CPU only)
+  isRecommended: false
   tags:
-    - 'python 3'
-    - 'tensorflow 2.0.0'
-    - 'GPU'
-tensorflow/tensorflow:1.15.2-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.15.2 on Python 3 with GPU support'
+  - TensorFlow 2.2.0
+  - Python 3
+tensorflow/tensorflow:2.2.0-gpu:
+  description: TensorFlow 2.2.0 on Python 3 with GPU support
+  isRecommended: false
   tags:
-    - 'python 3'
-    - 'tensorflow 1.15.2'
-    - 'GPU'
-tensorflow/tensorflow:1.15.0-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.15.0 on Python 3 without GPU support'
+  - TensorFlow 2.2.0
+  - Python 3
+  - GPU
+tensorflow/tensorflow:2.6.0:
+  description: TensorFlow 2.6.0 on Python 3 (CPU only)
+  isRecommended: true
   tags:
-    - 'python 3'
-    - 'tensorflow 1.15.0'
-    - 'CPU'
-tensorflow/tensorflow:1.15.0-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.15.0 on Python 3 with GPU support'
+  - TensorFlow 2.6.0
+  - Python 3
+tensorflow/tensorflow:2.6.0-gpu:
+  description: TensorFlow 2.6.0 on Python 3 with GPU support
+  isRecommended: true
   tags:
-    - 'python 3'
-    - 'tensorflow 1.15.0'
-    - 'GPU'
-tensorflow/tensorflow:2.0.1-gpu-py3:
-  isRecommended: True
-  description: 'TensorFlow 2.0.1 on Python 3 with GPU support'
+  - TensorFlow 2.6.0
+  - Python 3
+  - GPU
+tensorflow/tensorflow:2.7.0:
+  description: TensorFlow 2.7.0 on Python 3 (CPU only)
+  isRecommended: true
   tags:
-    - 'python 3'
-    - 'tensorflow 2.0.1'
-    - 'GPU'
-ufoym/deepo:all-py36:
-  isRecommended: True
-  description: 'All common deep learning frameworks on Python 3 with GPU support)'
+  - TensorFlow 2.7.0
+  - Python 3
+tensorflow/tensorflow:2.7.0-gpu:
+  description: TensorFlow 2.7.0 on Python 3 with GPU support
+  isRecommended: true
   tags:
-    - 'python 3.6'
-    - 'GPU'
-    - 'CUDA 10.0'
-    - 'cuDNN 7'
-    - 'tensorflow'
-    - 'sonnet'
-    - 'torch 7'
-    - 'keras'
-    - 'mxnet'
-    - 'cntk'
-    - 'chainer'
-    - 'theano'
-    - 'lasagne'
-    - 'caffe 1.0.0'
-    - 'caffe2'
-  aliases:
-    - ufoym/deepo:all
-    - ufoym/deepo:py36
-ufoym/deepo:all-py36-cpu:
-  isRecommended: True
-  description:  'All common deep learning frameworks on Python 3 without GPU support'
-  aliases:
-    - ufoym/deepo:all-cpu
-    - ufoym/deepo:cpu
-    - ufoym/deepo:py36-cpu
+  - TensorFlow 2.7.0
+  - Python 3
+  - GPU
+ufoym/deepo:all-py38-cpu:
+  description: All-in-one Deep Learning image for CPU on Python 3.8
+  isRecommended: true
   tags:
-    - 'python 3.6'
-    - 'CPU'
-    - 'cuDNN 7'
-    - 'tensorflow'
-    - 'sonnet'
-    - 'torch 7'
-    - 'keras'
-    - 'mxnet'
-    - 'cntk'
-    - 'chainer'
-    - 'theano'
-    - 'lasagne'
-    - 'caffe 1.0.0'
-    - 'caffe2'
-ufoym/deepo:keras-py36-cu90:
-  isRecommended: True
-  description: 'Keras on Python 3.6'
+  - Python 3
+ufoym/deepo:all-py38-cu113:
+  description: All-in-one Deep Learning image for CUDA 11.3 GPU on Python 3.8
+  isRecommended: true
   tags:
-    - 'python 3.6'
-    - 'keras'
-    - 'GPU'
-valohai/darknet:b61bcf5-cuda8.0-cudnn5-devel-ubuntu16.04:
-  isRecommended: True
-  description: 'Darknet with GPU support'
-  tags:
-    - 'darknet'
-    - 'GPU'
-    - 'CUDA 8.0'
-    - 'cuDNN 5 developer'
-    - 'ubuntu 16.04'
-valohai/keras:2.0.0-tensorflow1.0.1-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04:
-  isRecommended: True
-  description: 'Keras 2.0.0 with TensorFlow 1.0.1 backend and GPU support on Python 3'
-  tags:
-    - 'python 3.6'
-    - 'keras 2.0.0'
-    - 'tensorflow 1.0.1'
-    - 'GPU'
-    - 'CUDA 8.0'
-    - 'cuDNN 5 developer'
-    - 'ubuntu 16.04'
-valohai/keras:2.0.0-theano0.8.2-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04:
-  isRecommended: True
-  description: 'Keras 2.0.0 with Theano 0.8.2 backend and GPU support on Python 3'
-  tags:
-    - 'python 3'
-    - 'theano 0.8.2'
-    - 'keras 2.0.0'
-    - 'CUDA 8.0'
-    - 'cuDNN 5 developer'
-    - 'ubuntu 16.04'
-valohai/keras:2.0.0-theano0.9.0rc4-python3.6-cuda8.0-cudnn5-devel-ubuntu16.04:
-  isRecommended: True
-  description: 'Keras 2.0.0 with Theano 0.9.0rc4 backend and GPU support on Python 3'
-  tags:
-    - 'python 3.6'
-    - 'keras 2.0.0'
-    - 'theano 0.9.0 rc 4'
-    - 'GPU'
-    - 'CUDA 8.0'
-    - 'cuDNN 5 developer'
-    - 'ubuntu 16.04'
-pytorch/pytorch:1.4-cuda10.1-cudnn7-devel:
-  isRecommended: True
-  description: 'PyTorch 1.4 with Cuda 10.1 and CuDNN 7'
-  tags:
-    - 'pytorch 1.4'
-    - 'CUDA 10.1'
-    - 'cuDNN 7'
-pytorch/pytorch:1.5.1-cuda10.1-cudnn7-runtime:
-  isRecommended: True
-  description: 'PyTorch 1.5.1 with Cuda 10.1 and CuDNN 7'
-  tags:
-    - 'PyTorch 1.5.1'
-    - 'cuDNN 7'
-    - 'GPU'
-ufoym/deepo:all-py27:
-  isRecommended: False
-  description: 'All common deep learning frameworks on Python 2 with GPU support'
-  tags:
-    - 'python 2.7'
-    - 'GPU'
-    - 'CUDA 10.0'
-    - 'cuDNN 7'
-    - 'tensorflow'
-    - 'sonnet'
-    - 'torch 7'
-    - 'keras'
-    - 'mxnet'
-    - 'cntk'
-    - 'chainer'
-    - 'theano'
-    - 'lasagne'
-    - 'caffe 1.0.0'
-    - 'caffe2'
-  aliases:
-    - ufoym/deepo:py27
-ufoym/deepo:all-py27-cpu:
-  isRecommended: False
-  description: 'All common deep learning frameworks on Python 2 without GPU support'
-  tags:
-    - 'python 2.7'
-    - 'CPU'
-    - 'cuDNN 7'
-    - 'tensorflow'
-    - 'sonnet'
-    - 'torch 7'
-    - 'keras'
-    - 'mxnet'
-    - 'cntk'
-    - 'chainer'
-    - 'theano'
-    - 'lasagne'
-    - 'caffe 1.0.0'
-    - 'caffe2'
-  aliases:
-    - ufoym/deepo:py27-cpu
-busybox:1.28.3:
-  isRecommended: False
-  description: 'Tiny versions of many common UNIX utilities'
-  tags:
-    - '<5Mb'
-    - 'UNIX'
-  aliases:
-    - busybox:1
-    - busybox:1.28
-python:2.7.14-alpine3.7:
-  isRecommended: False
-  description: 'Python 2.7.14 defacto image based on Alpine Linux'
-  tags:
-    - 'python 2.7.14'
-    - 'alpine'
-  aliases:
-    - python:2-alpine3.7
-    - python:2.7-alpine3.7
-python:2.7.14-jessie:
-  isRecommended: False
-  description: 'Python 2.7.14 defacto image based on Debian Jessie'
-  tags:
-    - 'python 2.7.14'
-    - 'debian 8 (jessie)'
-  aliases:
-    - python:2
-    - python:2.7
-    - python:2.7.14
-python:3.6.5-alpine3.7:
-  isRecommended: True
-  description: 'Python 3.6.5 defacto image based on Alpine Linux'
-  tags:
-    - 'python 3.6.5'
-    - 'alpine'
-  aliases:
-    - python:3-alpine3.7
-    - python:3.6-alpine3.7
-    - python:alpine3.7
-python:3.6.5-jessie:
-  isRecommended: True
-  description: 'Python 3.6.5 defacto image based on Debian Jessie'
-  tags:
-    - 'python 3.6.5'
-    - 'debian 8 (jessie)'
-  aliases:
-    - python:3
-    - python:3.6
-    - python:3.6.5
-tensorflow/tensorflow:1.5.0-devel-gpu:
-  isRecommended: False
-  description: 'TensorFlow 1.5.0 developer version on Python 2 with GPU support'
-  tags:
-    - 'python 2'
-    - 'tensorflow 1.5.0'
-    - 'GPU'
-    - 'developer version'
-  aliases:
-    - gcr.io/tensorflow/tensorflow:1.5.0-devel-gpu
-tensorflow/tensorflow:1.5.0-devel-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.5.0 developer version on Python 3 with GPU support'
-  tags:
-    - 'python 3'
-    - 'tensorflow 1.5.0'
-    - 'GPU'
-    - 'developer version'
-  aliases:
-    - gcr.io/tensorflow/tensorflow:1.5.0-devel-gpu-py3
-tensorflow/tensorflow:1.6.0-devel:
-  isRecommended: False
-  description: 'TensorFlow 1.6.0 developer version on Python 2 without GPU support'
-  tags:
-    - 'python 2'
-    - 'tensorflow 1.6.0'
-    - 'CPU'
-    - 'developer version'
-  aliases:
-    - gcr.io/tensorflow/tensorflow:1.6.0-devel
-tensorflow/tensorflow:1.6.0-devel-gpu:
-  isRecommended: False
-  description: 'TensorFlow 1.6.0 developer version on Python 2 with GPU support'
-  tags:
-    - 'python 2'
-    - 'tensorflow 1.6.0'
-    - 'GPU'
-    - 'developer version'
-  aliases:
-    - gcr.io/tensorflow/tensorflow:1.6.0-devel-gpu
-tensorflow/tensorflow:1.6.0-devel-gpu-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.6.0 developer version on Python 3 with GPU support'
-  tags:
-    - 'python 3'
-    - 'tensorflow 1.6.0'
-    - 'GPU'
-    - 'developer version'
-  aliases:
-    - gcr.io/tensorflow/tensorflow:1.6.0-devel-gpu-py3
-tensorflow/tensorflow:1.6.0-devel-py3:
-  isRecommended: False
-  description: 'TensorFlow 1.6.0 developer version on Python 3 without GPU support'
-  tags:
-    - 'python 3'
-    - 'tensorflow 1.6.0'
-    - 'CPU'
-    - 'developer version'
-  aliases:
-    - gcr.io/tensorflow/tensorflow:1.6.0-devel-py3
+  - Python 3
